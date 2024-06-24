@@ -42,7 +42,7 @@ const Footer = () => {
         <div>
           <h2 className="text-2xl font-bold mb-4">Contact Details</h2>
           <p>Address: 2399 Howard Street, Kentwood MI 49512</p>
-          <p>Contact: +1(855)-200-0390</p>
+          <p>Contact: +1(855)-200-0658</p>
           <p>E-mail: support@pcsoftwaretech.com</p>
           <div className="mt-4">
             <h3 className="text-xl font-bold mb-2">Secure Payments</h3>

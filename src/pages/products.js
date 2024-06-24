@@ -128,8 +128,7 @@ export const products = [
       'https://www.pcsoftwarecare.com/wp-content/uploads/2023/10/Kaspersky-Antivirus-320x320.jpg',
   },
 
-  //Uncatogrized  category
-
+  // Uncategorized category
   {
     id: 17,
     name: 'Avast Premium Security 10 Devices, 1 Year, Global',
@@ -190,7 +189,7 @@ export const products = [
       'https://www.pcsoftwarecare.com/wp-content/uploads/2023/07/bit-av-1-600x600.png',
   },
 
-  // category MaCfree
+  // category McAfee
   {
     id: 24,
     name: 'Mcafee-Internet-Security-1-year-5-user',
@@ -285,7 +284,6 @@ export const products = [
     imageurl:
       'https://www.pcsoftwarecare.com/wp-content/uploads/2023/07/Trend-Micro-Maximum-Security-244x320.png',
   },
-
   {
     id: 34,
     name: 'TREND MICRO Titanium Internet Security PC 3 Devices 1 Year',

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { products } from './products';
 
 const HomePage = ({ selectedCategory }) => {
+  console.log(products);
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 8;
 
@@ -36,12 +37,9 @@ const HomePage = ({ selectedCategory }) => {
               />
               <h2 className="text-xl font-bold text-black">{product.name}</h2>
               <p className="text-gray-800">
-                <span className="line-through">{product.originalPrice}</span>{' '}
-                <span className="font-semibold">{product.currentPrice}</span>
+                <span className="line-through">${product.originalPrice}</span>{' '}
+                <span className="font-semibold">${product.currentPrice}</span>
               </p>
-              <button className="mt- bg-black text-yellow-400 px-4 py-2 rounded hover:bg-yellow-500  transition-colors duration-300">
-                Buy Now
-              </button>
             </div>
           ))}
         </div>

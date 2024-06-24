@@ -22,13 +22,7 @@ const Navbar = ({ setSelectedCategory }) => {
           />
           <SearchIcon className="text-black " />
         </div>
-        <div className="flex  items-center mr-8  gap-2">
-          <HeadphonesIcon className="text-yellow-400" />
-          <section className="flex gap-4 mt-3 justify-center items-center">
-            <p>Helpline</p>
-            <p>+1(855)-200-0390</p>
-          </section>
-        </div>
+        <div className="flex  items-center mr-8  gap-2"></div>
       </section>
 
       <section className="flex justify-around bg-yellow-400 items-center">
@@ -81,6 +75,13 @@ const Navbar = ({ setSelectedCategory }) => {
             className="text-black py-1 px-2  no-underline  rounded hover:bg-gray-200 mt-3 mr-3"
           >
             Disclaimer
+          </Link>
+
+          <Link
+            to="/blog"
+            className="text-black py-1 px-2  no-underline  rounded hover:bg-gray-200 mt-3 mr-3"
+          >
+            Blog
           </Link>
         </ul>
       </section>

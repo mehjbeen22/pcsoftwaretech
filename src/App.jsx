@@ -7,6 +7,7 @@ import PrivacyPolicy from './policies/PrivacyPolicy';
 import WarrantyPolicy from './policies/RefundAndReturn';
 import TermsOfUse from './policies/TermAndConditions';
 import Disclaimer from './policies/Disclaimer';
+import Blog from './pages/Blog';
 
 const App = () => {
   // Define state to manage selected category
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/refund&return" element={<WarrantyPolicy />} />
         <Route path="/t&c" element={<TermsOfUse />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
     </Router>
